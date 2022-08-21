@@ -45,9 +45,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/indent_x1"
             android:fontFamily="@font/roboto_medium"
+            android:text="@{Double.toString(shoe.size)}"
             android:textColor="@color/white_100"
             android:textSize="@dimen/text_h2"
-            android:text="@{Double.toString(shoe.size)}"
+            android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="10.5" />
